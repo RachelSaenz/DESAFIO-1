@@ -1,0 +1,13 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [Sexo]
+      ,[ingresos]
+      ,[PromVisit]
+      ,[Edad]
+      ,[Sauna]
+      ,[Masaje]
+      ,[Hidro]
+      ,[Yoga]
+      ,[Promedio de ingresos]
+      ,[Total M/H por edad]
+      ,[Servicio mas requerido]
+  FROM [Fidelizacion ].[dbo].[Analisis]
