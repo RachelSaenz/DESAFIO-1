@@ -1,6 +1,5 @@
 
 
-
 CREATE VIEW spa_data AS
 SELECT 'CENTRO' sucursal,CENTRO.* FROM dbo.SpaCentro_m20191007 CENTRO
 UNION
